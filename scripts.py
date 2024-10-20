@@ -86,18 +86,23 @@ os.makedirs('/home/data/output', exist_ok=True)
 
 with open(result_path, 'w') as result_file:
     result_file.write(f"Container IP Address: {ip_address}\n")
-    result_file.write(f"-------------------------CONTRACTION HANDLING FOR ONLY AlwaysRememberUsThisWay.txt-------------------\n")
-    result_file.write(f"IF.txt Word Count: {file1_word_count}\n")
-    result_file.write(f"AlwaysRememberUsThisWay.txt Word Count(Contractions Handled): {file2_word_count}\n")
-    result_file.write(f"Total Word Count: {total_word_count}\n")
-    result_file.write(f"Top 3 Words in IF.txt: {file1_top_words}\n")
-    result_file.write(f"Top 3 Words in AlwaysRememberUsThisWay.txt: {file2_top_words}\n")
-    result_file.write(f"-------------------------CONTRACTION HANDLING FOR BOTH TEXT FILES-------------------\n")
+    
+    result_file.write(f"IF.txt Word Count (without contractions): {file1_word_count}\n")
     result_file.write(f"IF.txt Word Count(Contractions Handled): {file1_word_count_contraction}\n")
     result_file.write(f"AlwaysRememberUsThisWay.txt Word Count(Contractions Handled): {file2_word_count_contraction}\n")
+    result_file.write(f"AlwaysRememberUsThisWay.txt Word Count(Contractions Handled): {file2_word_count}\n")
+    result_file.write(f"Total Word Count (without contractions): {total_word_count}\n")
     result_file.write(f"Total Word Count: {total_word_count_contraction}\n")
+    result_file.write(f"Top 3 Words in IF.txt (without contractions): {file1_top_words}\n")
     result_file.write(f"Top 3 Words in IF.txt: {file1_top_words_contraction}\n")
+    result_file.write(f"Top 3 Words in AlwaysRememberUsThisWay.txt (without contractions): {file2_top_words}\n")
     result_file.write(f"Top 3 Words in AlwaysRememberUsThisWay.txt: {file2_top_words_contraction}\n")
+    
+    
+
+    
+    
+    
     
 
 # Print the results

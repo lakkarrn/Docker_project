@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: my-container-deployment
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: my-container-app
+  template:
+    metadata:
+      labels:
+        app: my-container-app
+    spec:
+      containers:
+        - name: my-container
+          image: lakkarrn/docker-image:latest
+          ports:
+            - containerPort: 80

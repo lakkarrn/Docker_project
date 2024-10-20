@@ -1,0 +1,13 @@
+Container IP Address: 172.17.0.2
+-------------------------CONTRACTION HANDLING FOR ONLY AlwaysRememberUsThisWay.txt-------------------
+IF.txt Word Count: 287
+AlwaysRememberUsThisWay.txt Word Count(Contractions Handled): 242
+Total Word Count: 529
+Top 3 Words in IF.txt: [('and', 16), ('if', 14), ('you', 14)]
+Top 3 Words in AlwaysRememberUsThisWay.txt: [('i', 15), ('the', 13), ('not', 9)]
+-------------------------CONTRACTION HANDLING FOR BOTH TEXT FILES-------------------
+IF.txt Word Count(Contractions Handled): 298
+AlwaysRememberUsThisWay.txt Word Count(Contractions Handled): 242
+Total Word Count: 540
+Top 3 Words in IF.txt: [('and', 19), ('you', 16), ('if', 14)]
+Top 3 Words in AlwaysRememberUsThisWay.txt: [('i', 15), ('the', 13), ('not', 9)]
